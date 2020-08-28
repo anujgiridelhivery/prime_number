@@ -1,6 +1,6 @@
 # check prime numbers in given list
 
-# num_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+num_list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 def prime(data):
 	prime_list = []
 	for num in data:
@@ -10,3 +10,6 @@ def prime(data):
 		else:
 			prime_list.append(num)
 	return prime_list
+
+a = prime(num_list)
+print(a)
